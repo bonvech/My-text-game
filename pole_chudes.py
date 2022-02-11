@@ -38,8 +38,7 @@ while attempts > 0:
         break 
     elif ent in myenters:
         print("такую букву вы уже пробовали")
-    elif ent in word:б
-    
+    elif ent in word:    
         print("верно!!!")
         letter = 0
         while word[letter] != ent:
